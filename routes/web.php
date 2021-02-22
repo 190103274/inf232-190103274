@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/post/{first_name}/{last_name}', function ($first_name, $last_name) {
     return "My name: ".$first_name." ".$last_name;
 });
+
+/*one */
